@@ -31,7 +31,7 @@ function Banner() {
               </p>
               <a
                 href=""
-                className="bg-indigo-600 w-max px-3 py-4 text-white rounded-md font-semibold"
+                className="bg-indigo-600 w-max px-2 py-3 text-white rounded-md font-semibold"
               >
                 Conocer Mas
               </a>

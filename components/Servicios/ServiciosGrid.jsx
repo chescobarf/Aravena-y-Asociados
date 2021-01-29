@@ -15,7 +15,7 @@ function ServiciosGrid() {
           officia cum!
         </p>
         <div className="servicios grid grid-cols-2 gap-8 mt-14">
-          <div class="item flex">
+          <div class="item flex bg-gray-border-gray-100 border-gray-100 rounded-md shadow-lg p-4">
             <div class="flex-shrink-0">
               <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                 <svg
@@ -36,16 +36,17 @@ function ServiciosGrid() {
             </div>
             <div class="ml-4">
               <dt class="text-lg leading-6 font-medium text-gray-900 text-left">
-                Asesoría y Servicios Contables
+                SERVICIOS CONTABLES
               </dt>
               <dd class="mt-2 text-base text-gray-500 text-left">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Maiores impedit perferendis suscipit eaque, iste dolor
-                cupiditate blanditiis ratione.
+                Realizamos el registro de su información contable
+                correspondiente a ventas, compras y gastos de su empresa mes a
+                mes para cumplir con las obligaciones fiscales tributarias
+                establecidos por la ley. En lo principal declaración de IVA.
               </dd>
             </div>
           </div>
-          <div class="item flex">
+          <div class="item flex bg-gray-border-gray-100 border-gray-100 rounded-md shadow-lg p-4">
             <div class="flex-shrink-0">
               <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                 <svg
@@ -66,16 +67,17 @@ function ServiciosGrid() {
             </div>
             <div class="ml-4">
               <dt class="text-lg leading-6 font-medium text-gray-900 text-left">
-                Asesoría Tributaria
+                SERVICIO PARA CONTABILIDADES ATRASADAS
               </dt>
               <dd class="mt-2 text-base text-gray-500 text-left">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Maiores impedit perferendis suscipit eaque, iste dolor
-                cupiditate blanditiis ratione.
+                En breve plazo posible colocamos su contabilidad al día,
+                regularizamos los IVA atrasados, imposiciones, asistimos a
+                citaciones del SII, rectificamos Declaración de Impuesto Renta,
+                entre otros
               </dd>
             </div>
           </div>
-          <div class="item flex">
+          <div class="item flex bg-gray-border-gray-100 border-gray-100 rounded-md shadow-lg p-4">
             <div class="flex-shrink-0">
               <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                 <svg
@@ -96,12 +98,103 @@ function ServiciosGrid() {
             </div>
             <div class="ml-4">
               <dt class="text-lg leading-6 font-medium text-gray-900 text-left">
-                Asesoría y Servicios Laborales
+                RECURSOS HUMANOS
               </dt>
               <dd class="mt-2 text-base text-gray-500 text-left">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Maiores impedit perferendis suscipit eaque, iste dolor
-                cupiditate blanditiis ratione.
+                Confeccionamos Contratos de Trabajo, Liquidaciones de Sueldo
+                mensualmente, Libro de remuneraciones, Preparamos y Declaramos
+                sus Imposiciones, Confeccionamos Cartas de Aviso Despido,
+                Calculamos y Confeccionamos Finiquitos.
+              </dd>
+            </div>
+          </div>
+          <div class="item flex bg-gray-border-gray-100 border-gray-100 rounded-md shadow-lg p-4">
+            <div class="flex-shrink-0">
+              <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                <svg
+                  class="w-6 h-6"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            <div class="ml-4">
+              <dt class="text-lg leading-6 font-medium text-gray-900 text-left">
+                TRÁMITES ANTE EL SII
+              </dt>
+              <dd class="mt-2 text-base text-gray-500 text-left">
+                Asesoramos permanentemente a nuestros clientes. Gestionamos la
+                Iniciación de actividades, Ampliaciones de Giro, cambio de
+                Domicilio, Cambios Societarios, IVA Exportador, Cambio de
+                Sujeto, Términos de Giro, etc.
+              </dd>
+            </div>
+          </div>
+          <div class="item flex bg-gray-border-gray-100 border-gray-100 rounded-md shadow-lg p-4">
+            <div class="flex-shrink-0">
+              <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                <svg
+                  class="w-6 h-6"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            <div class="ml-4">
+              <dt class="text-lg leading-6 font-medium text-gray-900 text-left">
+                REGULARIZACIONES ANTE LA MUNICIPALIDAD Y/O SEREMI
+              </dt>
+              <dd class="mt-2 text-base text-gray-500 text-left">
+                Si ya iniciaste tu emprendimiento y debes regularizar patentes,
+                permisos u otros, te ayudamos. Cuéntanos tu caso y te daremos
+                solución.
+              </dd>
+            </div>
+          </div>
+          <div class="item flex bg-gray-border-gray-100 border-gray-100 rounded-md shadow-lg p-4">
+            <div class="flex-shrink-0">
+              <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                <svg
+                  class="w-6 h-6"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            <div class="ml-4">
+              <dt class="text-lg leading-6 font-medium text-gray-900 text-left">
+                ACTUALIZACIONES
+              </dt>
+              <dd class="mt-2 text-base text-gray-500 text-left">
+                Mantenemos informados a nuestros clientes respecto de cambios en
+                las normativas tributarias y laborales
               </dd>
             </div>
           </div>
