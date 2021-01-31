@@ -1,5 +1,6 @@
 import React from "react";
-import Contacto from "../Footer/Contact";
+import Contact from "../Footer/Contact";
+import Link from "next/link";
 export default function Header() {
   const showContact = (e) => {
     e.preventDefault;
@@ -16,46 +17,42 @@ export default function Header() {
   };
   return (
     <div className="flex justify-between items-center py-4 px-8 bg-white shadow-md relative z-50">
-      <img src="/logotipoBlue2.png" alt="" className="h-10" />
+      <Link href="/">
+        <img src="/logotipoBlue2.png" alt="" className="h-10" />
+      </Link>
       <div className="flex gap-2 relative">
-        <div className="">
-          <a
-            href=""
-            className="px-4 py-2 font-medium text-base text-gray-800 hover:bg-indigo-600 hover:text-white rounded"
-          >
+        <Link href="/">
+          <a className="px-4 py-2 font-medium text-base text-gray-800 hover:bg-indigo-600 hover:text-white rounded ">
             Inicio
           </a>
-        </div>
-        <div className="">
-          <a
-            href=""
-            className="px-4 py-2 font-medium text-base text-gray-800 hover:bg-indigo-600 hover:text-white rounded"
-          >
+        </Link>
+        <Link href="/Servicios">
+          <a className="px-4 py-2 font-medium text-base text-gray-800 hover:bg-indigo-600 hover:text-white rounded">
             Servicios
           </a>
-        </div>
-        <div className="">
-          <a
-            href=""
-            className="px-4 py-2 font-medium text-base text-gray-800 hover:bg-indigo-600 hover:text-white rounded"
-          >
+        </Link>
+        <Link href="/Cotizar">
+          <a className="px-4 py-2 font-medium text-base text-gray-800 hover:bg-indigo-600 hover:text-white rounded">
             Cotizar Plan
           </a>
-        </div>
-        <div className="">
-          <a
-            className="px-4 py-2 font-medium text-base text-gray-800 hover:bg-indigo-600 hover:text-white rounded cursor-pointer"
-            onClick={showContact}
-          >
-            Contacto
-          </a>
-        </div>
+        </Link>
+        <a
+          className="px-4 py-2 font-medium text-base text-gray-800 hover:bg-indigo-600 hover:text-white rounded cursor-pointer"
+          onClick={showContact}
+        >
+          Contacto
+        </a>
         <div
           id="contactHeader"
-          className="absolute top-12 -right-8 bg-indigo-700 rounded-md text-white py-3 px-8 opacity-0 hidden transition-opacity"
+          className="absolute top-12 -right-8 bg-white rounded-md text-black py-3 px-8 opacity-0 hidden transition-opacity shadow-lg rounded-t-none"
         >
-          <h1>Contactanos</h1>
-          <Contacto props="w-full"></Contacto>
+          <h1 className="mb-4">Contactanos</h1>
+          <Contact
+            width="w-full"
+            showSocials="false"
+            direction="flex-col"
+            align="items-baseline"
+          ></Contact>
         </div>
       </div>
     </div>

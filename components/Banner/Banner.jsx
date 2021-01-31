@@ -11,6 +11,8 @@ function Banner() {
     slidesToScroll: 1,
     autoplay: true,
     fade: true,
+    swipeToSlide: true,
+    arrows: false,
   };
   const carrousel = {};
   return (

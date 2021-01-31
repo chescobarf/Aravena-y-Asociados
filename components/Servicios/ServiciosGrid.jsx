@@ -15,7 +15,7 @@ function ServiciosGrid() {
           officia cum!
         </p>
         <div className="servicios grid grid-cols-2 gap-8 mt-14">
-          <div class="item flex bg-gray-border-gray-100 border-gray-100 rounded-md shadow-lg p-4">
+          <div class="item flex bg-gray-border-gray-100 border-gray-100 rounded-md shadow-md p-4 hover:shadow-xl transition-all">
             <div class="flex-shrink-0">
               <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                 <svg
@@ -36,7 +36,7 @@ function ServiciosGrid() {
             </div>
             <div class="ml-4">
               <dt class="text-lg leading-6 font-medium text-gray-900 text-left">
-                SERVICIOS CONTABLES
+                Servicios Contables
               </dt>
               <dd class="mt-2 text-base text-gray-500 text-left">
                 Realizamos el registro de su información contable
@@ -46,7 +46,7 @@ function ServiciosGrid() {
               </dd>
             </div>
           </div>
-          <div class="item flex bg-gray-border-gray-100 border-gray-100 rounded-md shadow-lg p-4">
+          <div class="item flex bg-gray-border-gray-100 border-gray-100 rounded-md shadow-md p-4 hover:shadow-xl transition-all">
             <div class="flex-shrink-0">
               <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                 <svg
@@ -67,7 +67,7 @@ function ServiciosGrid() {
             </div>
             <div class="ml-4">
               <dt class="text-lg leading-6 font-medium text-gray-900 text-left">
-                SERVICIO PARA CONTABILIDADES ATRASADAS
+                Servicio Para Contabilidades Atrasadas
               </dt>
               <dd class="mt-2 text-base text-gray-500 text-left">
                 En breve plazo posible colocamos su contabilidad al día,
@@ -77,7 +77,7 @@ function ServiciosGrid() {
               </dd>
             </div>
           </div>
-          <div class="item flex bg-gray-border-gray-100 border-gray-100 rounded-md shadow-lg p-4">
+          <div class="item flex bg-gray-border-gray-100 border-gray-100 rounded-md shadow-md p-4 hover:shadow-xl transition-all">
             <div class="flex-shrink-0">
               <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                 <svg
@@ -91,14 +91,14 @@ function ServiciosGrid() {
                     stroke-linecap="round"
                     stroke-linejoin="round"
                     stroke-width="2"
-                    d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                    d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
                   ></path>
                 </svg>
               </div>
             </div>
             <div class="ml-4">
               <dt class="text-lg leading-6 font-medium text-gray-900 text-left">
-                RECURSOS HUMANOS
+                Recursos Humanos
               </dt>
               <dd class="mt-2 text-base text-gray-500 text-left">
                 Confeccionamos Contratos de Trabajo, Liquidaciones de Sueldo
@@ -108,7 +108,7 @@ function ServiciosGrid() {
               </dd>
             </div>
           </div>
-          <div class="item flex bg-gray-border-gray-100 border-gray-100 rounded-md shadow-lg p-4">
+          <div class="item flex bg-gray-border-gray-100 border-gray-100 rounded-md shadow-md p-4 hover:shadow-xl transition-all">
             <div class="flex-shrink-0">
               <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                 <svg
@@ -129,7 +129,7 @@ function ServiciosGrid() {
             </div>
             <div class="ml-4">
               <dt class="text-lg leading-6 font-medium text-gray-900 text-left">
-                TRÁMITES ANTE EL SII
+                Trámites Ante El SII
               </dt>
               <dd class="mt-2 text-base text-gray-500 text-left">
                 Asesoramos permanentemente a nuestros clientes. Gestionamos la
@@ -139,7 +139,7 @@ function ServiciosGrid() {
               </dd>
             </div>
           </div>
-          <div class="item flex bg-gray-border-gray-100 border-gray-100 rounded-md shadow-lg p-4">
+          <div class="item flex bg-gray-border-gray-100 border-gray-100 rounded-md shadow-md p-4 hover:shadow-xl transition-all">
             <div class="flex-shrink-0">
               <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                 <svg
@@ -153,14 +153,14 @@ function ServiciosGrid() {
                     stroke-linecap="round"
                     stroke-linejoin="round"
                     stroke-width="2"
-                    d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                    d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"
                   ></path>
                 </svg>
               </div>
             </div>
             <div class="ml-4">
               <dt class="text-lg leading-6 font-medium text-gray-900 text-left">
-                REGULARIZACIONES ANTE LA MUNICIPALIDAD Y/O SEREMI
+                Regularizaciones Ante La Municipalidad Y/O Seremi
               </dt>
               <dd class="mt-2 text-base text-gray-500 text-left">
                 Si ya iniciaste tu emprendimiento y debes regularizar patentes,
@@ -169,7 +169,7 @@ function ServiciosGrid() {
               </dd>
             </div>
           </div>
-          <div class="item flex bg-gray-border-gray-100 border-gray-100 rounded-md shadow-lg p-4">
+          <div class="item flex bg-gray-border-gray-100 border-gray-100 rounded-md shadow-md p-4 hover:shadow-xl transition-all">
             <div class="flex-shrink-0">
               <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                 <svg
@@ -183,14 +183,14 @@ function ServiciosGrid() {
                     stroke-linecap="round"
                     stroke-linejoin="round"
                     stroke-width="2"
-                    d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                    d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"
                   ></path>
                 </svg>
               </div>
             </div>
             <div class="ml-4">
               <dt class="text-lg leading-6 font-medium text-gray-900 text-left">
-                ACTUALIZACIONES
+                Actualizaciones
               </dt>
               <dd class="mt-2 text-base text-gray-500 text-left">
                 Mantenemos informados a nuestros clientes respecto de cambios en
