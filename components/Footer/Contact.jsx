@@ -7,8 +7,6 @@ import {
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 function Contact(props) {
-  console.log();
-
   const socials = () => {
     if (props.showSocials == "true") {
       return (
