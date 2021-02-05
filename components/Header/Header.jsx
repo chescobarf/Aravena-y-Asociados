@@ -18,26 +18,26 @@ export default function Header() {
   return (
     <div className="flex justify-between items-center py-4 px-8 bg-white shadow-md relative z-50">
       <Link href="/">
-        <img src="/logotipoBlue2.png" alt="" className="h-10" />
+        <img src="/logotipo.png" alt="" className="h-10 md:h-8" />
       </Link>
       <div className="flex gap-2 relative">
         <Link href="/">
-          <a className="px-4 py-2 font-medium text-base text-gray-800 hover:bg-indigo-600 hover:text-white rounded ">
+          <a className="px-4 py-2 font-medium text-base text-gray-800 hover:bg-amber-500 hover:text-white rounded ">
             Inicio
           </a>
         </Link>
         <Link href="/Servicios">
-          <a className="px-4 py-2 font-medium text-base text-gray-800 hover:bg-indigo-600 hover:text-white rounded">
+          <a className="px-4 py-2 font-medium text-base text-gray-800 hover:bg-amber-500 hover:text-white rounded">
             Servicios
           </a>
         </Link>
         <Link href="/Cotizar">
-          <a className="px-4 py-2 font-medium text-base text-gray-800 hover:bg-indigo-600 hover:text-white rounded">
+          <a className="px-4 py-2 font-medium text-base text-gray-800 hover:bg-amber-500 hover:text-white rounded">
             Cotizar Plan
           </a>
         </Link>
         <a
-          className="px-4 py-2 font-medium text-base text-gray-800 hover:bg-indigo-600 hover:text-white rounded cursor-pointer"
+          className="px-4 py-2 font-medium text-base text-gray-800 hover:bg-amber-500 hover:text-white rounded cursor-pointer"
           onClick={showContact}
         >
           Contacto

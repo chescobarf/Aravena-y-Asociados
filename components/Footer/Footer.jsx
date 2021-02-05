@@ -10,9 +10,9 @@ import Contact from "./Contact";
 import Link from "next/link";
 function Footer() {
   return (
-    <div className="w-full bg-gradient-to-b from-indigo-600 to-blue-800 pt-6 text-gray-200 flex-col">
-      <div className="container mx-auto my-0">
-        <div className="flex justify-around w-full pb-5">
+    <div className="w-full bg-gradient-to-br from-amber-500 to-amber-600 pt-12 text-gray-50 flex-col md:px-2">
+      <div className="container mx-auto my-0 pb-10">
+        <div className="flex justify-around w-full pb-5 md:flex-col md:gap-8">
           <div className="w-auto">
             <Link href="/">
               <img
@@ -27,12 +27,13 @@ function Footer() {
             showSocials="true"
             direction="flex-row"
             align="items-center"
+            media="md:grid md:grid-cols-2"
           ></Contact>
         </div>
       </div>
-      <div className="w-full my-0 mx-auto text-center py-5 text-sm bg-black bg-opacity-10 ">
+      <div className="w-full my-0 mx-auto text-center py-5 text-sm bg-amber-700 bg-opacity-10">
         <p>&#169; Todos los derecho reservados de Aravena y Asociados</p>
-        <a href="" className="">
+        <a href="https://christian-escobar.netlify.app/" className="">
           Creado por <span className="font-semibold">Ch.Escobarf</span>
         </a>
       </div>

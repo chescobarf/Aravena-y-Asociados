@@ -9,7 +9,8 @@ export default (req, res) => {
     correspondiente a ventas, compras y gastos de su empresa mes a
     mes para cumplir con las obligaciones fiscales tributarias
     establecidos por la ley. En lo principal declaración de IVA.`,
-    svg:'/icons/serviciosContables.svg'
+    svg:'/icons/serviciosContables.svg',
+    img:'/1.jpg'
 },
 {
     id:2,
@@ -18,7 +19,8 @@ export default (req, res) => {
     regularizamos los IVA atrasados, imposiciones, asistimos a
     citaciones del SII, rectificamos Declaración de Impuesto Renta,
     entre otros`,
-    svg:'/icons/serviciosContables.svg'
+    svg:'/icons/serviciosContables.svg',
+    img:'/2.jpg'
 },
 {
     id:3,
@@ -27,7 +29,9 @@ export default (req, res) => {
     mensualmente, Libro de remuneraciones, Preparamos y Declaramos
     sus Imposiciones, Confeccionamos Cartas de Aviso Despido,
     Calculamos y Confeccionamos Finiquitos.`,
-    svg:'/icons/serviciosContables.svg'
+    svg:'/icons/serviciosContables.svg',
+    img:'/3.jpg'
+
 },
 {
     id:4,
@@ -36,7 +40,9 @@ export default (req, res) => {
     Iniciación de actividades, Ampliaciones de Giro, cambio de
     Domicilio, Cambios Societarios, IVA Exportador, Cambio de
     Sujeto, Términos de Giro, etc.`,
-    svg:'/icons/serviciosContables.svg'
+    svg:'/icons/serviciosContables.svg',
+    img:'/4.jpg'
+
 },
 {
     id:5,
@@ -44,13 +50,17 @@ export default (req, res) => {
     descrip:`Si ya iniciaste tu emprendimiento y debes regularizar patentes,
     permisos u otros, te ayudamos. Cuéntanos tu caso y te daremos
     solución.`,
-    svg:'/icons/serviciosContables.svg'
+    svg:'/icons/serviciosContables.svg',
+    img:'/5.jpg'
+
 },
 {
     id:6,
     name:"Actualizaciones",
     descrip:`Mantenemos informados a nuestros clientes respecto de cambios en
     las normativas tributarias y laborales`,
-    svg:'/icons/serviciosContables.svg'
+    svg:'/icons/serviciosContables.svg',
+    img:'/6.jpg'
+
   }])
 }

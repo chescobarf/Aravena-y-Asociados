@@ -10,7 +10,7 @@ function Cotizar() {
         <div className="w-full shadow-lg px-10 py-5 hover:shadow-2xl text-center rounded-lg">
           <div className="w-full">
             <h1 className="text-3xl mb-2">
-              <span className="text-indigo-700 font-bold">
+              <span className="text-amber-500 font-bold">
                 Cotiza los servicios
               </span>{" "}
               que necesitas con nosotros

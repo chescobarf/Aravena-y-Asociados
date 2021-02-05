@@ -23,7 +23,7 @@ function Banner() {
             <div className="content w-1/2 grid place-content-center px-10">
               <h2 className="text-6xl leading-none font-bold text-gray-900 mb-10">
                 Servicio contable y tributario para
-                <span className="text-indigo-600"> Pymes</span>
+                <span className="text-amber-500"> Pymes</span>
               </h2>
               <p className="text-lg mb-7">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
@@ -33,7 +33,7 @@ function Banner() {
               </p>
               <a
                 href=""
-                className="bg-indigo-600 w-max px-2 py-3 text-white rounded-md font-semibold"
+                className="bg-amber-500 w-max px-2 py-3 text-white rounded-md font-semibold"
               >
                 Conocer Mas
               </a>
@@ -78,7 +78,7 @@ function Banner() {
             <div className="content w-1/2 grid place-content-center px-10">
               <h2 className="text-6xl leading-none font-bold text-gray-900 mb-10">
                 Servicio contable y tributario para
-                <span className="text-indigo-600"> Pymes</span>
+                <span className="text-amber-500"> Pymes</span>
               </h2>
               <p className="text-lg">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa

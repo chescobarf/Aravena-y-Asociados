@@ -24,13 +24,15 @@ function Cotizar() {
     var descrip = document.querySelector("#description");
     var title = document.querySelector("#title");
     var content = servicios.find((element) => element.id === servicio);
-
+    var imgback = document.querySelector("#img-back");
     if (content != undefined) {
       descrip.innerHTML = content.descrip;
       title.innerHTML = content.name;
+      imgback.setAttribute("src", content.img);
     } else {
       descrip.innerHTML = "";
       title.innerHTML = "";
+      imgback.setAttribute("src", "");
     }
   });
 
@@ -47,7 +49,7 @@ function Cotizar() {
                 onClick={() => SetServicio(item.id)}
               >
                 <div class="flex-shrink-0">
-                  <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                  <div class="flex items-center justify-center h-12 w-12 rounded-md bg-amber-500 text-white">
                     <img src={item.svg} alt="" className="w-8 h-8" />
                   </div>
                 </div>
@@ -60,15 +62,25 @@ function Cotizar() {
             );
           })}
         </div>
-        <div className="shadow-xl w-full p-8 hover:shadow-2xl ring rounded-md ring-red-400 ring-opacity-30 relative">
-          <h1 id="title" className="text-center text-3xl font-bold  mb-8"></h1>
-          <div id="description" className="text-xl"></div>
-          <div className="grid place-items-center absolute bottom-0 w-full left-0 mb-8">
-            <Link href="/Cotizar">
-              <a className="px-4 py-2 font-medium text-base bg-indigo-600 text-white rounded cursor-pointer">
-                Cotizar
-              </a>
-            </Link>
+        <div className="shadow-xl w-full hover:shadow-2xl rounded-md relative h-auto grid py-8 px-12 text-white">
+          <img
+            alt=""
+            id="img-back"
+            className="absolute w-full h-full z-0 rounded-md"
+          />
+          <div className="z-10 h-full">
+            <h1
+              id="title"
+              className="text-center text-3xl font-bold  mb-8"
+            ></h1>
+            <div id="description" className="text-xl"></div>
+            <div className="grid place-items-center absolute bottom-0 w-full left-0 mb-8">
+              <Link href="/Cotizar">
+                <a className="px-4 py-2 font-medium text-base bg-amber-500 text-white rounded cursor-pointer">
+                  Cotizar
+                </a>
+              </Link>
+            </div>
           </div>
         </div>
       </div>

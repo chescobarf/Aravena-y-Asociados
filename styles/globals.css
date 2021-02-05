@@ -5,3 +5,7 @@
 #socials svg {
   width: 95% !important;
 }
+
+#img-back {
+  filter: blur(1px) brightness(0.4);
+}
