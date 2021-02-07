@@ -9,7 +9,8 @@ function Cotizar() {
   const [servicio, SetServicio] = useState(1);
 
   const fetchData = () => {
-    fetch("http://localhost:3000/api/servicesArray")
+    // fetch("http://localhost:3000/api/servicesArray")
+    fetch("https://aravena-y-asociados.netlify.app/")
       .then((response) => response.json())
       .then((data) => setServicios(data))
       .catch((error) => console.error("Error:", error));
@@ -39,7 +40,7 @@ function Cotizar() {
   return (
     <>
       <Header></Header>
-      <div className="container mx-auto my-12 flex flex-row gap-8">
+      <div className="container mx-auto my-12 flex flex-row gap-8 md:px-2">
         <div className="lateral w-6/12 flex flex-col gap-2">
           {servicios.map((item) => {
             return (
