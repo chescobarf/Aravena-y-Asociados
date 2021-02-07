@@ -1,11 +1,13 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Link from "next/link";
 import {
   faFacebookF,
   faWhatsapp,
   faLinkedinIn,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
+
 function Contact(props) {
   const socials = () => {
     if (props.showSocials == "true") {
@@ -66,7 +68,9 @@ function Contact(props) {
           >
             <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"></path>
           </svg>
-          <p>Agustinas #1185 of 58 , Santiago Centro</p>
+          <Link href="/Contacto">
+            <p>Agustinas #1185 of 58 , Santiago Centro</p>
+          </Link>
         </a>
       </div>
       <div className="item flex flex-col gap-2 md:row-start-2">
@@ -111,7 +115,9 @@ function Contact(props) {
           >
             <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path>
           </svg>
-          <p>26725756 / 26965196 / 968745054</p>
+          <Link href="/Contacto">
+            <p>26725756 / 26965196 / 968745054</p>
+          </Link>
         </a>
       </div>
       {socials()}

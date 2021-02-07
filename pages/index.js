@@ -11,17 +11,16 @@ export default function Home() {
         <title>Aravena & Asociados</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Header></Header>
+      <Header/>
       <div className="relative">
-        <Banner></Banner>
-        <ServiciosGrid></ServiciosGrid>
+        <Banner/>
+        {/* <ServiciosGrid/>
         <Whatsapp
           numero="+56977031115"
           msg="Hola Aravena y Asociados, necesito de sus servicios"
-        ></Whatsapp>
+        /> */}
       </div>
-      
-    <Footer></Footer>
+      {/* <Footer/> */}
     
     </div>
   )

@@ -2,19 +2,19 @@ import React from "react";
 
 function ServiciosGrid() {
   return (
-    <div className="container mx-auto my-14">
+    <div className="container mx-auto my-14 md:px-2">
       <div className="grid place-content-center bg-white text-center">
         <h4 class="uppercase text-amber-500 font-bold text-base mb-3">
           ¿Cómo podemos ayudarte?
         </h4>
         <h2 className="font-bold text-4xl mb-3">Servicios Principales</h2>
-        <p className="text-gray-500 px-48 md:px-10">
+        <p className="text-gray-500 px-48 md:px-10 sm:px-0">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
           reprehenderit rem dolore ex dicta earum voluptatibus delectus non amet
           quos qui perferendis eaque, laboriosam maxime ab debitis recusandae
           officia cum!
         </p>
-        <div className="servicios grid grid-cols-2 gap-8 mt-14">
+        <div className="servicios grid grid-cols-2 gap-8 mt-14 sm:grid-cols-1">
           <div class="item flex bg-gray-border-gray-100 border-gray-100 rounded-md shadow-md p-4 hover:shadow-xl transition-all">
             <div class="flex-shrink-0">
               <div class="flex items-center justify-center h-12 w-12 rounded-md bg-amber-500 text-white">

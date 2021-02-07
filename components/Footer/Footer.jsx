@@ -10,15 +10,15 @@ import Contact from "./Contact";
 import Link from "next/link";
 function Footer() {
   return (
-    <div className="w-full bg-gradient-to-br from-amber-500 to-amber-600 pt-12 text-gray-50 flex-col md:px-2">
-      <div className="container mx-auto my-0 pb-10">
-        <div className="flex justify-around w-full pb-5 md:flex-col md:gap-8">
-          <div className="w-auto">
+    <div className="w-full bg-gradient-to-br from-amber-500 to-amber-600 pt-12 text-gray-50 flex-col md:px-2 sm:px-2">
+      <div className="container mx-auto my-0 pb-10 sm:pb-4">
+        <div className="flex justify-around w-full pb-5 md:flex-col md:gap-8 sm:flex-col sm:items-center">
+          <div className="w-auto sm:mb-3">
             <Link href="/">
               <img
                 src="/logotipoWhite.png"
                 alt="Aravena y Asociados"
-                className="h-10"
+                className="h-10 sm:h-8"
               />
             </Link>
           </div>
@@ -27,7 +27,7 @@ function Footer() {
             showSocials="true"
             direction="flex-row"
             align="items-center"
-            media="md:grid md:grid-cols-2"
+            media="md:grid md:grid-cols-2 sm:flex sm:flex-col"
           ></Contact>
         </div>
       </div>

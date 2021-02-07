@@ -9,7 +9,7 @@ function Banner() {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: false,
     fade: true,
     swipeToSlide: true,
     arrows: false,
@@ -19,13 +19,13 @@ function Banner() {
     <div>
       <Slider {...settings}>
         <div>
-          <div className="flex relative w-full">
-            <div className="content w-1/2 grid place-content-center px-10">
-              <h2 className="text-6xl leading-none font-bold text-gray-900 mb-10">
+          <div className="flex relative w-full sm:grid sm:place-content-center sm:pt-1">
+            <div className="content w-1/2 grid place-content-center px-10 sm:w-full sm:z-10 sm:text-white">
+              <h2 className="text-6xl leading-none font-bold text-gray-900 mb-10 sm:text-lg sm:mb-2">
                 Servicio contable y tributario para
                 <span className="text-amber-500"> Pymes</span>
               </h2>
-              <p className="text-lg mb-7">
+              <p className="text-lg mb-7 sm:text-sm">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
                 assumenda animi excepturi aliquid earum ab porro itaque
                 consequatur aperiam et aliquam laudantium laboriosam cum,
@@ -33,13 +33,13 @@ function Banner() {
               </p>
               <a
                 href=""
-                className="bg-amber-500 w-max px-2 py-3 text-white rounded-md font-semibold"
+                className="bg-amber-500 w-max px-2 py-3 text-white rounded-md font-semibold sm:px-1 sm:py-2 sm:text-xs sm:mb-4"
               >
                 Conocer Mas
               </a>
             </div>
             <svg
-              class="hidden lg:block absolute right-1/2 inset-y-0 h-full w-48 text-white transform translate-x-1/2"
+              class="hidden lg:block absolute right-1/2 inset-y-0 h-full w-48 text-white transform translate-x-1/2 sm:hidden"
               fill="currentColor"
               viewBox="0 0 100 100"
               preserveAspectRatio="none"
@@ -47,7 +47,7 @@ function Banner() {
             >
               <polygon points="50,0 100,0 50,100 0,100"></polygon>
             </svg>
-            <div className="img w-1/2 ">
+            <div className="img w-1/2 sm:w-full sm:absolute sm:top-0 sm:right-0 sm:z-0 imgFilter">
               <img
                 src="/banner.png"
                 alt=""
@@ -57,8 +57,8 @@ function Banner() {
           </div>
         </div>
         <div>
-          <div className="flex relative w-full">
-            <div className="img w-1/2 ">
+          <div className="flex relative w-full sm:grid sm:place-content-center sm:pt-1">
+            <div className="img w-1/2 sm:w-full sm:absolute sm:top-0 sm:right-0 sm:z-0 imgFilter">
               <img
                 src="/asesoria.jpg"
                 alt=""
@@ -66,7 +66,7 @@ function Banner() {
               />
             </div>
             <svg
-              class="hidden lg:block absolute right-1/2 inset-y-0 h-full w-48 text-white transform translate-x-1/2"
+              class="hidden lg:block absolute right-1/2 inset-y-0 h-full w-48 text-white transform translate-x-1/2 sm:hidden"
               fill="currentColor"
               viewBox="0 0 100 100"
               preserveAspectRatio="none"
@@ -74,13 +74,12 @@ function Banner() {
             >
               <polygon points="50,0 50,0 50,150 0,100"></polygon>
             </svg>
-
-            <div className="content w-1/2 grid place-content-center px-10">
-              <h2 className="text-6xl leading-none font-bold text-gray-900 mb-10">
+            <div className="content w-1/2 grid place-content-center px-10 sm:w-full sm:z-10 sm:text-white">
+              <h2 className="text-6xl leading-none font-bold text-gray-200 mb-10 sm:text-lg sm:mb-2">
                 Servicio contable y tributario para
                 <span className="text-amber-500"> Pymes</span>
               </h2>
-              <p className="text-lg">
+              <p className="text-lg sm:text-sm">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
                 assumenda animi excepturi aliquid earum ab porro itaque
                 consequatur aperiam et aliquam laudantium laboriosam cum,
