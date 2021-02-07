@@ -86,7 +86,7 @@ export default function Header() {
         </button>
       </div>
       <div
-        className="sm:hidden flex gap-2 absolute top-12 flex-col bg-white w-full left-0"
+        className="hidden sm:hidden gap-2 absolute top-12 flex-col bg-white w-full left-0"
         id="menuHamburguer"
       >
         <Link href="/">

@@ -10,7 +10,7 @@ function Cotizar() {
 
   const fetchData = () => {
     // fetch("http://localhost:3000/api/servicesArray")
-    fetch("https://aravena-y-asociados.netlify.app/")
+    fetch("https://aravena-y-asociados.netlify.app/api/servicesArray")
       .then((response) => response.json())
       .then((data) => setServicios(data))
       .catch((error) => console.error("Error:", error));
