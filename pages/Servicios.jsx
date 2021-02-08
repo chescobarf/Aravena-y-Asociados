@@ -48,17 +48,17 @@ function Cotizar() {
           {servicios.map((item) => {
             return (
               <button
-                class="item flex bg-gray-border-gray-100 border-gray-100 rounded-md shadow-md p-4 hover:shadow-xl transition-all items-center cursor-pointer w-full sm:flex-col sm:gap-2"
+                className="item flex bg-gray-border-gray-100 border-gray-100 rounded-md shadow-md p-4 hover:shadow-xl transition-all items-center cursor-pointer w-full sm:flex-col sm:gap-2"
                 key={item.id}
                 onClick={() => SetServicio(item.id)}
               >
-                <div class="flex-shrink-0">
-                  <div class="flex items-center justify-center h-12 w-12 rounded-md bg-amber-500 text-white">
+                <div className="flex-shrink-0">
+                  <div className="flex items-center justify-center h-12 w-12 rounded-md bg-amber-500 text-white">
                     <img src={item.svg} alt="" className="w-8 h-8" />
                   </div>
                 </div>
-                <div class="ml-4 sm:m-0">
-                  <dt class="text-lg leading-6 font-medium text-gray-900 text-left sm:text-center sm:text-base">
+                <div className="ml-4 sm:m-0">
+                  <dt className="text-lg leading-6 font-medium text-gray-900 text-left sm:text-center sm:text-base">
                     {item.name}
                   </dt>
                 </div>

@@ -39,7 +39,7 @@ function Banner() {
               </a>
             </div>
             <svg
-              class="lg:block absolute right-1/2 inset-y-0 h-full w-48 text-white transform translate-x-1/2 sm:hidden"
+              className="lg:block absolute right-1/2 inset-y-0 h-full w-48 text-white transform translate-x-1/2 sm:hidden"
               fill="currentColor"
               viewBox="0 0 100 100"
               preserveAspectRatio="none"
@@ -66,7 +66,7 @@ function Banner() {
               />
             </div>
             <svg
-              class="lg:block absolute right-1/2 inset-y-0 h-full w-48 text-white transform translate-x-1/2 sm:hidden"
+              className="lg:block absolute right-1/2 inset-y-0 h-full w-48 text-white transform translate-x-1/2 sm:hidden"
               fill="currentColor"
               viewBox="0 0 100 100"
               preserveAspectRatio="none"
