@@ -7,6 +7,9 @@ import Whatsapp from '../components/Whatsapp/Button'
 export default function Home() {
   return (
     <div>
+      <Head>
+        <title>Aravena Y Asociados</title>
+      </Head>
       <Header/>
       <div className="relative">
         <Banner/>

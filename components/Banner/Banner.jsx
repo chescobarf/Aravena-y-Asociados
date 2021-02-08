@@ -49,7 +49,7 @@ function Banner() {
             </svg>
             <div className="img w-1/2 sm:w-full sm:absolute sm:top-0 sm:right-0 sm:z-0 imgFilter">
               <img
-                src="/banner.png"
+                src="/banner.jpg"
                 alt=""
                 className="w-full object-cover sm:h-72 h-full"
               />
