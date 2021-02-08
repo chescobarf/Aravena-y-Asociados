@@ -40,12 +40,15 @@ function Cotizar() {
   return (
     <>
       <Header></Header>
-      <div className="container mx-auto my-12 flex flex-row gap-8 md:px-2">
-        <div className="lateral w-6/12 flex flex-col gap-2">
+      <div className="container mx-auto my-12 flex flex-row gap-8 md:px-2 sm:flex-col sm:items-center">
+        <h2 className="hidden text-center text-xl font-bold sm:block ">
+          Servicios
+        </h2>
+        <div className="lateral w-6/12 flex flex-col gap-2 sm:grid sm:grid-cols-2 sm:w-full">
           {servicios.map((item) => {
             return (
               <button
-                class="item flex bg-gray-border-gray-100 border-gray-100 rounded-md shadow-md p-4 hover:shadow-xl transition-all items-center cursor-pointer w-full"
+                class="item flex bg-gray-border-gray-100 border-gray-100 rounded-md shadow-md p-4 hover:shadow-xl transition-all items-center cursor-pointer w-full sm:flex-col sm:gap-2"
                 key={item.id}
                 onClick={() => SetServicio(item.id)}
               >
@@ -54,8 +57,8 @@ function Cotizar() {
                     <img src={item.svg} alt="" className="w-8 h-8" />
                   </div>
                 </div>
-                <div class="ml-4">
-                  <dt class="text-lg leading-6 font-medium text-gray-900 text-left">
+                <div class="ml-4 sm:m-0">
+                  <dt class="text-lg leading-6 font-medium text-gray-900 text-left sm:text-center sm:text-base">
                     {item.name}
                   </dt>
                 </div>
@@ -63,7 +66,7 @@ function Cotizar() {
             );
           })}
         </div>
-        <div className="shadow-xl w-full hover:shadow-2xl rounded-md relative h-auto grid py-8 px-12 text-white">
+        <div className="shadow-xl w-full hover:shadow-2xl rounded-md relative h-auto grid py-8 px-12 text-white sm:pb-10">
           <img
             alt=""
             id="img-back"

@@ -86,7 +86,7 @@ export default function Header() {
         </button>
       </div>
       <div
-        className="hidden sm:hidden gap-2 absolute top-12 flex-col bg-white w-full left-0"
+        className="hidden sm:hidden gap-2 absolute top-14 flex-col bg-white w-full left-0"
         id="menuHamburguer"
       >
         <Link href="/">
@@ -104,13 +104,12 @@ export default function Header() {
             Cotizar Plan
           </a>
         </Link>
-        <a
-          className="px-4 py-2 font-medium text-base text-gray-800 hover:bg-amber-500 hover:text-white rounded cursor-pointer"
-          onClick={showContact}
-        >
-          Contacto
-        </a>
-        <div
+        <Link href="/Contacto">
+          <a className="px-4 py-2 font-medium text-base text-gray-800 hover:bg-amber-500 hover:text-white rounded cursor-pointer">
+            Contacto
+          </a>
+        </Link>
+        {/* <div
           id="contactHeader"
           className="absolute top-12 -right-8 bg-white rounded-md text-black py-3 px-8 opacity-0 hidden transition-opacity shadow-lg rounded-t-none"
         >
@@ -121,7 +120,7 @@ export default function Header() {
             direction="flex-col"
             align="items-baseline"
           ></Contact>
-        </div>
+        </div> */}
       </div>
     </header>
   );

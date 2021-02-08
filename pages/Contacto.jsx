@@ -7,7 +7,7 @@ function Contacto() {
     <>
       <Header />
       <div className="container mx-auto my-6 md:px-2 grid place-content-center">
-        <div className="MapContainer">
+        <div className="MapContainer sm:w-full">
           <h2 className="text-4xl font-bold mb-6 text-gray-700">Contactanos</h2>
           <div className="title flex gap-3">
             <svg
@@ -36,9 +36,10 @@ function Contacto() {
               allowfullscreen=""
               aria-hidden="false"
               tabindex="0"
+              className="sm:w-full"
             ></iframe>
           </div>
-          <div className="text-lg">
+          <div className="text-lg sm:text-base">
             <p className="mb-5">Tambien puedes llamar a nuestros numeros: </p>
             <ul className="flex justify-between">
               <li className="flex gap-2 items-center">

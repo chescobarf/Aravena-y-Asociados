@@ -10,7 +10,7 @@ import Contact from "./Contact";
 import Link from "next/link";
 function Footer() {
   return (
-    <div className="w-full bg-gradient-to-br from-amber-500 to-amber-600 pt-12 text-gray-50 flex-col md:px-2 sm:px-2">
+    <div className="w-full bg-gradient-to-br from-amber-500 to-amber-600 pt-12 text-gray-50 flex-col md:px-8 sm:px-2 sm:text-center">
       <div className="container mx-auto my-0 pb-10 sm:pb-4">
         <div className="flex justify-around w-full pb-5 md:flex-col md:gap-8 sm:flex-col sm:items-center">
           <div className="w-auto sm:mb-3">
