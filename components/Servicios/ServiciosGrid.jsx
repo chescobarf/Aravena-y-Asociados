@@ -10,10 +10,9 @@ function ServiciosGrid() {
         </h4>
         <h2 className="font-bold text-4xl mb-3">Servicios Principales</h2>
         <p className="text-gray-500 px-48 md:px-10 sm:px-0">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-          reprehenderit rem dolore ex dicta earum voluptatibus delectus non amet
-          quos qui perferendis eaque, laboriosam maxime ab debitis recusandae
-          officia cum!
+          En Aravena Y Asociados asesoramos permanentemente a nuestros clientes
+          en el área contable. Contáctanos y nosotros te daremos la solución a
+          tus problemas.
         </p>
         <div className="servicios grid grid-cols-2 gap-8 mt-14 sm:grid-cols-1">
           <Link href="/Servicios">
@@ -41,10 +40,8 @@ function ServiciosGrid() {
                   Servicios Contables
                 </dt>
                 <dd className="mt-2 text-base text-gray-500 text-left">
-                  Realizamos el registro de su información contable
-                  correspondiente a ventas, compras y gastos de su empresa mes a
-                  mes para cumplir con las obligaciones fiscales tributarias
-                  establecidos por la ley. En lo principal declaración de IVA.
+                  Realizamos el registro de compras, ventas y gastos de su
+                  empresa mes a mes, te ayudamos en la declaración de IVA…
                 </dd>
               </div>
             </div>
@@ -74,10 +71,9 @@ function ServiciosGrid() {
                   Servicio Para Contabilidades Atrasadas
                 </dt>
                 <dd className="mt-2 text-base text-gray-500 text-left">
-                  En breve plazo posible colocamos su contabilidad al día,
-                  regularizamos los IVA atrasados, imposiciones, asistimos a
-                  citaciones del SII, rectificamos Declaración de Impuesto
-                  Renta, entre otros
+                  Colocamos su contabilidad al día, regularizamos los IVA
+                  atrasados, imposiciones, asistimos a citaciones del Servicio
+                  de Impuestos Internos...
                 </dd>
               </div>
             </div>
@@ -108,9 +104,7 @@ function ServiciosGrid() {
                 </dt>
                 <dd className="mt-2 text-base text-gray-500 text-left">
                   Confeccionamos Contratos de Trabajo, Liquidaciones de Sueldo
-                  mensualmente, Libro de remuneraciones, Preparamos y Declaramos
-                  sus Imposiciones, Confeccionamos Cartas de Aviso Despido,
-                  Calculamos y Confeccionamos Finiquitos.
+                  mensualmente, Libro de remuneraciones…
                 </dd>
               </div>
             </div>
@@ -140,10 +134,9 @@ function ServiciosGrid() {
                   Trámites Ante El SII
                 </dt>
                 <dd className="mt-2 text-base text-gray-500 text-left">
-                  Asesoramos permanentemente a nuestros clientes. Gestionamos la
-                  Iniciación de actividades, Ampliaciones de Giro, cambio de
-                  Domicilio, Cambios Societarios, IVA Exportador, Cambio de
-                  Sujeto, Términos de Giro, etc.
+                  Gestionamos la Iniciación de actividades, Ampliaciones de
+                  Giro, cambio de Domicilio, Cambios Societarios, IVA
+                  Exportador…
                 </dd>
               </div>
             </div>
@@ -206,7 +199,7 @@ function ServiciosGrid() {
                 </dt>
                 <dd className="mt-2 text-base text-gray-500 text-left">
                   Mantenemos informados a nuestros clientes respecto de cambios
-                  en las normativas tributarias y laborales
+                  en las normativas tributarias y laborales.
                 </dd>
               </div>
             </div>

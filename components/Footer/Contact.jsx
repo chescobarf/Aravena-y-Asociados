@@ -14,7 +14,7 @@ function Contact(props) {
       return (
         <div className="flex flex-row gap-2" id="socials">
           <a
-            href=""
+            href="https://www.facebook.com/AravenaYAsociados "
             className="bg-white rounded-full h-8 w-8 grid place-items-center px-1 py-1"
           >
             <FontAwesomeIcon
@@ -22,7 +22,7 @@ function Contact(props) {
               className="text-amber-500 w-full h-full "
             />
           </a>
-          <a
+          {/* <a
             href=""
             className="bg-white rounded-full h-8 w-8 grid place-items-center px-1 py-1"
           >
@@ -30,22 +30,13 @@ function Contact(props) {
               icon={faWhatsapp}
               className="text-amber-500 w-full h-full "
             />
-          </a>
+          </a> */}
           <a
-            href=""
+            href="https://www.instagram.com/aravenayasociados/ "
             className="bg-white rounded-full h-8 w-8 grid place-items-center px-1 py-1"
           >
             <FontAwesomeIcon
               icon={faInstagram}
-              className="text-amber-500 w-full h-full "
-            />
-          </a>
-          <a
-            href=""
-            className="bg-white rounded-full h-8 w-8 grid place-items-center px-1 py-1"
-          >
-            <FontAwesomeIcon
-              icon={faLinkedinIn}
               className="text-amber-500 w-full h-full "
             />
           </a>

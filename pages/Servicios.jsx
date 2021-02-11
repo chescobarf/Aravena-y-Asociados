@@ -77,7 +77,7 @@ function Cotizar() {
               id="title"
               className="text-center text-3xl font-bold  mb-8"
             ></h1>
-            <div id="description" className="text-xl"></div>
+            <div id="description" className="text-xl sm:mb-24"></div>
             <div className="grid place-items-center absolute bottom-0 w-full left-0 mb-8">
               <Link href="/Cotizar">
                 <a className="px-4 py-2 font-medium text-base bg-amber-500 text-white rounded cursor-pointer">

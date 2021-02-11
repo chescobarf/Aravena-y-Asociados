@@ -14,10 +14,10 @@ export default function Home() {
       <div className="relative">
         <Banner/>
         <ServiciosGrid/>
-        <Whatsapp
+        {/* <Whatsapp
           numero="+56977031115"
           msg="Hola Aravena y Asociados, necesito de sus servicios"
-        />
+        /> */}
       </div>
       <Footer/>
     
