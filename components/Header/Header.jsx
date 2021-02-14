@@ -94,17 +94,17 @@ export default function Header() {
             Inicio
           </a>
         </Link>
-        <Link href="/Servicios">
+        <Link href="/Servicios.html">
           <a className="px-4 py-2 font-medium text-base text-gray-800 hover:bg-amber-500 hover:text-white rounded">
             Servicios
           </a>
         </Link>
-        <Link href="/Cotizar">
+        <Link href="/Cotizar.html">
           <a className="px-4 py-2 font-medium text-base text-gray-800 hover:bg-amber-500 hover:text-white rounded">
             Cotizar Plan
           </a>
         </Link>
-        <Link href="/Contacto">
+        <Link href="/Contacto.html">
           <a className="px-4 py-2 font-medium text-base text-gray-800 hover:bg-amber-500 hover:text-white rounded cursor-pointer">
             Contacto
           </a>

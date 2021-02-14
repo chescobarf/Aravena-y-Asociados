@@ -20,7 +20,7 @@ function Banner() {
     <div>
       <Slider {...settings}>
         <div>
-          <div className="flex relative w-full sm:grid sm:place-content-center sm:pt-1">
+          <div className="flex relative w-full sm:grid sm:place-content-center sm:pt-1 sm:h-64">
             <div className="content w-1/2 grid place-content-center px-10 sm:w-full sm:z-10 sm:text-white">
               <h2 className="text-6xl leading-none font-bold text-gray-900 mb-10 sm:text-lg sm:mb-2 sm:text-white">
                 ¿Eres emprendedor y necesitas ayuda para
@@ -45,22 +45,22 @@ function Banner() {
             >
               <polygon points="50,0 100,0 50,100 0,100"></polygon>
             </svg>
-            <div className="img w-1/2 sm:w-full sm:absolute sm:top-0 sm:right-0 sm:z-0 imgFilter">
+            <div className="img w-1/2 sm:w-full sm:absolute sm:top-0 sm:right-0 sm:z-0 imgFilter sm:h-full">
               <img
                 src="/banner1.jpg"
                 alt=""
-                className="w-full object-cover sm:h-72 h-full"
+                className="w-full object-cover h-96 sm:h-full"
               />
             </div>
           </div>
         </div>
         <div>
-          <div className="flex relative w-full sm:grid sm:place-content-center sm:pt-1">
-            <div className="img w-1/2 sm:w-full sm:absolute sm:top-0 sm:right-0 sm:z-0 imgFilter">
+          <div className="flex relative w-full sm:grid sm:place-content-center sm:pt-1 sm:h-64">
+            <div className="img w-1/2 sm:w-full sm:absolute sm:top-0 sm:right-0 sm:z-0 imgFilter sm:h-full">
               <img
                 src="/banner2.jpg"
                 alt=""
-                className="w-full object-cover sm:h-72 h-full"
+                className="w-full object-cover h-96 sm:h-full"
               />
             </div>
             <svg
@@ -85,12 +85,12 @@ function Banner() {
           </div>
         </div>
         <div>
-          <div className="flex relative w-full sm:grid sm:place-content-center sm:pt-1">
-            <div className="img w-1/2 sm:w-full sm:absolute sm:top-0 sm:right-0 sm:z-0 imgFilter">
+          <div className="flex relative w-full sm:grid sm:place-content-center sm:pt-1 sm:h-64 sm:h-64">
+            <div className="img w-1/2 sm:w-full sm:absolute sm:top-0 sm:right-0 sm:z-0 imgFilter sm:h-full">
               <img
                 src="/banner3.jpg"
                 alt=""
-                className="w-full object-cover sm:h-72 h-full"
+                className="w-full object-cover h-96 sm:h-full"
               />
             </div>
             <svg
@@ -104,7 +104,7 @@ function Banner() {
             </svg>
             <div className="content w-1/2 grid place-content-center px-10 sm:w-full sm:z-10 sm:text-white">
               <h2 className="text-6xl leading-none font-bold text-gray-800 sm:text-gray-200 mb-10 sm:text-lg sm:mb-2">
-                Con más de 30 años de
+                Con más de 10 años de
                 <span className="text-amber-500"> experiencia.</span>
               </h2>
               <p className="text-lg sm:text-sm">

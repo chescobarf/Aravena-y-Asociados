@@ -20,11 +20,11 @@ function Cotizar() {
             </p>
           </div>
           <HubspotForm
-            portalId="7636559"
-            formId="365282d7-0724-4c7c-85fc-b39ff40b8972"
-            onSubmit={() => console.log("Submit!")}
-            onReady={(form) => console.log("Form ready!")}
-            loading={<div>Loading...</div>}
+            portalId="9420389"
+            formId="daa00e6f-9e7f-4036-a6ca-59542ab9af5c"
+            onSubmit={() => console.log("Formulario Enviado!")}
+            onReady={(form) => console.log("Formulario Listo!")}
+            loading={<div>Cargando...</div>}
           />
         </div>
       </div>

@@ -12,10 +12,10 @@ function Contact(props) {
   const socials = () => {
     if (props.showSocials == "true") {
       return (
-        <div className="flex flex-row gap-2" id="socials">
+        <div className="flex flex-row gap-2 col-start-2" id="socials">
           <a
             href="https://www.facebook.com/AravenaYAsociados "
-            className="bg-white rounded-full h-8 w-8 grid place-items-center px-1 py-1"
+            className="bg-white rounded-full h-8 w-8  px-1 py-1 flex place-content-center"
           >
             <FontAwesomeIcon
               icon={faFacebookF}
@@ -33,7 +33,7 @@ function Contact(props) {
           </a> */}
           <a
             href="https://www.instagram.com/aravenayasociados/ "
-            className="bg-white rounded-full h-8 w-8 grid place-items-center px-1 py-1"
+            className="bg-white rounded-full h-8 w-8  px-1 py-1 flex place-content-center"
           >
             <FontAwesomeIcon
               icon={faInstagram}
@@ -47,7 +47,7 @@ function Contact(props) {
 
   return (
     <div
-      className={`flex ${props.direction} ${props.align} gap-5 ${props.media}`}
+      className={`grid ${props.direction} ${props.align} gap-5 ${props.media}`}
     >
       <div className="item">
         <a className="flex items-center gap-3" href="">
@@ -64,7 +64,7 @@ function Contact(props) {
           </Link>
         </a>
       </div>
-      <div className="item flex flex-col gap-2 md:row-start-2">
+      <div className="item">
         <a
           className="flex items-center gap-3"
           href="mailto:alex.aravena@aravenayasociados.cl"
@@ -80,6 +80,8 @@ function Contact(props) {
           </svg>
           <p>alex.aravena@aravenayasociados.cl</p>
         </a>
+      </div>
+      <div className="item">
         <a
           className="flex items-center gap-3"
           href="mailto:charlotte.aviles@aravenayasociados.cl"
