@@ -28,11 +28,13 @@ export default function Header() {
   return (
     <header className="flex justify-between items-center py-4 px-8 bg-white shadow-md relative z-50 sm:px-5">
       <Link href="/">
-        <img
-          src="/logotipo.png"
-          alt=""
-          className="h-10 md:h-8 cursor-pointer sm:h-7"
-        />
+        <h1>
+          <img
+            src="/logotipo.png"
+            alt="Servicios Contables, Tributarios Y Laborales Para Pymes"
+            className="h-10 md:h-8 cursor-pointer sm:h-7"
+          />
+        </h1>
       </Link>
       <div className="flex gap-2 relative sm:hidden">
         <Link href="/">

@@ -48,7 +48,7 @@ function Banner() {
             <div className="img w-1/2 sm:w-full sm:absolute sm:top-0 sm:right-0 sm:z-0 imgFilter sm:h-full">
               <img
                 src="/banner1.jpg"
-                alt=""
+                alt="Servicios Contables, Tributarios Y Laborales Para Pymes"
                 className="w-full object-cover h-96 sm:h-full"
               />
             </div>
@@ -59,7 +59,7 @@ function Banner() {
             <div className="img w-1/2 sm:w-full sm:absolute sm:top-0 sm:right-0 sm:z-0 imgFilter sm:h-full">
               <img
                 src="/banner2.jpg"
-                alt=""
+                alt="Servicios Contables, Tributarios Y Laborales Para Pymes"
                 className="w-full object-cover h-96 sm:h-full"
               />
             </div>
@@ -85,11 +85,11 @@ function Banner() {
           </div>
         </div>
         <div>
-          <div className="flex relative w-full sm:grid sm:place-content-center sm:pt-1 sm:h-64 sm:h-64">
+          <div className="flex relative w-full sm:grid sm:place-content-center sm:pt-1 sm:h-64">
             <div className="img w-1/2 sm:w-full sm:absolute sm:top-0 sm:right-0 sm:z-0 imgFilter sm:h-full">
               <img
                 src="/banner3.jpg"
-                alt=""
+                alt="Servicios Contables, Tributarios Y Laborales Para Pymes"
                 className="w-full object-cover h-96 sm:h-full"
               />
             </div>
