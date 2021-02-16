@@ -21,14 +21,14 @@ export default async function handler(req, res) {
         descrip:`En Aravena Y Asociados realizamos el registro de su información contable
         correspondiente a ventas, compras y gastos de su empresa mes a mes para cumplir
         con las obligaciones fiscales tributarias establecidas por la ley. En lo principal
-        declaración de IVA.`,
+        declaración de IVA, confeccionamos Estados de Resultados mensuales, trimestrales, semestrales y anuales según necesidad del cliente`,
         svg:'/icons/serviciosContables.svg',
         img:'/1.jpg'
     },
     {
         id:2,
         name:"Servicio Para Contabilidades Atrasadas",
-        descrip:`Colocamos su contabilidad al día, regularizamos los IVA atrasados, imposiciones,
+        descrip:`En el mas breve plazo posible colocamos su contabilidad al día, regularizamos los IVA atrasados, imposiciones,
         asistimos a citaciones del Servicio de Impuestos Internos, rectificamos Declaración de
         Impuesto Renta, entre otros.`,
         svg:'/icons/contabilidadAtrasada.svg',
@@ -48,7 +48,7 @@ export default async function handler(req, res) {
         id:4,
         name:"Trámites Ante El SII",
         descrip:`Gestionamos la Iniciación de actividades, Ampliaciones de Giro, cambio de Domicilio,
-        Cambios Societarios, IVA Exportador, Cambio de Sujeto, Términos de Giro, etc.`,
+        Cambios Societarios, IVA Exportador, Cambio de Sujeto, Boleta Electrónica, Factura Electrónica, etc.`,
         svg:'/icons/sii.svg',
         img:'/4.jpg'
     

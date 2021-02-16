@@ -11,8 +11,8 @@ function ServiciosGrid() {
         <h2 className="font-bold text-4xl mb-3">Servicios Principales</h2>
         <p className="text-gray-500 px-48 md:px-10 sm:px-0">
           En Aravena Y Asociados asesoramos permanentemente a nuestros clientes
-          en el área contable. Contáctanos y nosotros te daremos la solución a
-          tus problemas.
+          en el área contable,tributaria y legal. Contáctanos y nosotros te
+          daremos la solución a tus problemas.
         </p>
         <div className="servicios grid grid-cols-2 gap-8 mt-14 sm:grid-cols-1">
           <Link href="/Servicios">
@@ -41,7 +41,9 @@ function ServiciosGrid() {
                 </dt>
                 <dd className="mt-2 text-base text-gray-500 text-left">
                   Realizamos el registro de compras, ventas y gastos de su
-                  empresa mes a mes, te ayudamos en la declaración de IVA…
+                  empresa mes a mes, te ayudamos en la declaración de IVA,
+                  confeccionamos Estados de Resultados mensuales, trimestrales,
+                  semestrales y anuales...
                 </dd>
               </div>
             </div>
@@ -135,8 +137,8 @@ function ServiciosGrid() {
                 </dt>
                 <dd className="mt-2 text-base text-gray-500 text-left">
                   Gestionamos la Iniciación de actividades, Ampliaciones de
-                  Giro, cambio de Domicilio, Cambios Societarios, IVA
-                  Exportador…
+                  Giro, Cambio de Domicilio, Cambios Societarios, IVA
+                  Exportador, Boleta Electrónica...
                 </dd>
               </div>
             </div>
